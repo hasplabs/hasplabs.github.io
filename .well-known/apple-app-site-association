@@ -1,0 +1,13 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["66SAH2WX8R.com.hasplabs.fortyfivehard"],
+        "components": [
+          { "/": "/fortyfivehard/join.html", "?": { "c": "*" }, "comment": "a challenge link" },
+          { "/": "/fortyfivehard/invite.html", "?": { "h": "*" }, "comment": "a friend invite" }
+        ]
+      }
+    ]
+  }
+}
