@@ -1,0 +1,32 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.hasplabs.fortyfivehard",
+      "sha256_cert_fingerprints": [
+        "73:B2:1E:89:4A:E2:20:11:BC:BA:F7:E8:9B:D5:73:17:EB:CA:A9:E9:80:D0:02:BA:56:B5:3F:E9:01:C2:B5:AA"
+      ]
+    },
+    "relation_extensions": {
+      "delegate_permission/common.handle_all_urls": {
+        "dynamic_app_link_components": [
+          {
+            "/": "/fortyfivehard/join.html",
+            "?": {
+              "c": "*"
+            }
+          },
+          {
+            "/": "/fortyfivehard/invite.html",
+            "?": {
+              "h": "*"
+            }
+          }
+        ]
+      }
+    }
+  }
+]
